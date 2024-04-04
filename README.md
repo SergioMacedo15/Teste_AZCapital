@@ -16,25 +16,24 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Esboço das Páginas no Figma
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Antes de iniciar o desenvolvimento do projeto, foquei em criar um esboço detalhado das páginas para garantir uma visão clara e alinhamento com os objetivos pedidos. Optei por utilizar a plataforma Figma para esta etapa, pois oferece uma maneira eficiente de representar visualmente minhas ideias e explorar diferentes opções de design.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## **Objetivo do Esboço:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+O esboço no Figma foi crucial para alcançar os seguintes objetivos:
 
-## Learn More
+- Estabelecer uma estrutura clara para o projeto.
+- Definir a disposição dos elementos em cada página de forma coesa.
+- Definir componentes a serem criados.
 
-To learn more about Next.js, take a look at the following resources:
+## **Acesso ao Esboço no Figma:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para visualizar o esboço das páginas, você pode acessar o projeto no Figma através do seguinte link:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Link para o Projeto no Figma](https://www.figma.com/file/8Z16RMosapxWgNcuaACGuX/AZCapita?type=design&node-id=12%3A6414&mode=design&t=au3uCiTHwcj0inwR-1)
 
-## Deploy on Vercel
+Fique à vontade para examinar e deixar seu feedback. Qualquer dúvida ou sugestão é bem-vinda. Este esboço foi o ponto de partida essencial para o desenvolvimento subsequente do projeto.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+--- 
