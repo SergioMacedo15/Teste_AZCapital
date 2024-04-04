@@ -3,31 +3,41 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --bg-principal: rgba(243, 243, 243, 1);
+    --bg-secundary: rgba(226, 226, 226, 1);
+    --bg-selected: rgba(6, 6, 6, 1);
+    --banner-principal: rgba(253, 253, 253, 1);
+    --icon-selected: rgba(255, 255, 255, 1);
+    --line-default: rgba(0, 0, 0, 1);
+    --line-secundary: rgba(165, 165, 165, 1);
+    --txt-principal: rgba(0, 0, 0, 1);
+    --txt-secundary: rgba(130, 130, 130, 1);
+    --text-selected: rgba(255, 255, 255, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@media (prefers-color-scheme: white) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            rgb(var(--banner-principal))
+        )
+        rgb(var(--background-start-rgb));
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .text-balance {
+        text-wrap: balance;
+    }
 }
